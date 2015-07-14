@@ -1,0 +1,9 @@
+[user]
+	name = tylerlee
+	email = tyler@orgsync.com
+[credential]
+	helper = osxkeychain
+[core]
+	editor = atom -w
+[color]
+	ui = true
