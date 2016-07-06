@@ -1,9 +1,15 @@
 [user]
 	name = tylerlee
-	email = tyler@orgsync.com
+	email = tyler@tylerjameslee.com
 [credential]
 	helper = osxkeychain
 [core]
 	editor = atom -w
 [color]
 	ui = true
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
+[push]
+	default = matching
